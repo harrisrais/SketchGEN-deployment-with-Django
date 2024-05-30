@@ -1,0 +1,112 @@
+.cabin-sketch-bold {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cabin-sketch-regular {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav_container {
+    background: #252b2be5;
+    color: #fff;
+    padding: 0;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+
+.main_container {
+    height: 100vh;
+    color: #fff;
+    background: url('background3.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    color: #070808;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+
+.btn {
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    color: #252b2be5;
+}
+
+.heading {
+    
+    align-items: center;
+    margin-top: 60px;
+}
+
+.footer_container {
+    background: #252b2be5;
+    color: #fff;
+}
+
+/* Additional styles for better responsiveness */
+@media (max-width: 768px) {
+    .nav_container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main_container {
+        background-position: center center;
+        background-size: cover;
+        height: auto;
+        padding: 20px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .footer_container {
+        padding: 20px;
+        position: static;
+    }
+}
+
+.upload{
+    width:50%;
+    height: 30%;
+}
+
+.input-file {
+    display: none;
+}
+
+.input-file + label {
+    cursor: pointer;
+}
+
+.sketchResult {
+    display: inline-block;
+    margin: 0 10px; /* Adjust the margin as needed to give space between the divs */
+    vertical-align: top; /* Align the divs to the top */
+    width: 260px; /* Optional: set a fixed width */
+}

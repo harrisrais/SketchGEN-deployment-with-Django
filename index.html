@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchGEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid nav_container header">
+        <div class="row w-100 align-items-center justify-content-between">
+            <div class="col-auto logo">
+                <lord-icon src="https://cdn.lordicon.com/lihkwkob.json" trigger="in" delay="1500" stroke="bold" state="in-dynamic" colors="primary:#545454,secondary:#ffc738,tertiary:#ebe6ef,quaternary:#f9c9c0,quinary:#3a3347" style="width:50px;height:50px"></lord-icon>
+                <h4 class="cabin-sketch-bold">SketchGEN</h4>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid main_container d-flex align-items-center justify-content-center">
+            <div class="content text-center main">
+                <h2 class="cabin-sketch-bold">Welcome To SketchGEN</h2>
+                <p class="cabin-sketch-regular">Drop your Photo and get the Amazing Sketch using AI</p>
+                <form id="uploadForm" enctype="multipart/form-data" class="needs-validation cabin-sketch-regular" novalidate>
+                    <div class="form-group">
+                        <input type="file" name="file" id="file" class="input-file" required>
+                        <label for="file" class="btn btn-outline-dark cabin-sketch-regular upload my-2"><i class="fa fa-upload"></i> Choose File</label>
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark cabin-sketch-regular my-23">Let's Go!</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid footer_container text-center py-3 cabin-sketch-regular">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <h5>About Us</h5>
+                <p>We are providing the best sketching services.</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>Contact</h5>
+                <p>Email: info@company.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-white mr-2">Facebook</a>
+                <a href="#" class="text-white mr-2">Twitter</a>
+                <a href="#" class="text-white">Instagram</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <p>&copy; 2024 SketchGEN. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
