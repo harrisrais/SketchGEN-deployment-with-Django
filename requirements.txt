@@ -1,0 +1,5 @@
+pytorch
+numpy
+matplotlib
+python-opencv
+Django
