@@ -15,7 +15,7 @@ To install and run this project, follow these steps:
 
 1. **Clone the Repository**:
    ```sh
-   git clone https://github.com/yourusername/portrait-to-sketch.git
+   git clone https://github.com/harrisrais/SketchGEN-deployment-with-Django.git
    cd portrait-to-sketch
 
 2. **Install Dependencies**
